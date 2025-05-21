@@ -1,0 +1,18 @@
+{
+  "recommendations": [
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "formulahendry.code-runner",
+    "github.vscode-github-actions",
+    "gruntfuggly.todo-tree",
+    "kevinkyang.auto-comment-blocks",
+    "mhutchie.git-graph",
+    "ms-azuretools.vscode-docker",
+    "ms-vscode-remote.remote-containers",
+    "skellock.just",
+    "streetsidesoftware.code-spell-checker",
+    "wayou.vscode-todo-highlight",
+    "usernamehw.errorlens",
+    "jkearins.action-buttons-ext",
+  ]
+}
