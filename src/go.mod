@@ -1,4 +1,4 @@
-module main
+module github.com/KubrickCode/city-bot/src/server
 
 go 1.24.3
 
