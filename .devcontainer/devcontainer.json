@@ -1,0 +1,12 @@
+{
+  "name": "city-bot",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "workspace",
+  "workspaceFolder": "/workspaces/city-bot",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    "./local-features/just": {},
+    "./local-features/go": {}
+  },
+  "remoteUser": "root"
+}
