@@ -1,0 +1,9 @@
+go 1.24.3
+
+toolchain go1.24.3
+
+use (
+	./src/libs/env
+	./src/libs/discord
+	./src/server
+)
