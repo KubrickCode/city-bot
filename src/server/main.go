@@ -19,6 +19,9 @@ func main() {
 	log.Println("시티봇이 실행 중입니다.")
 
 	discord.AddHandler(handlers.TestHandler)
+	discord.AddHandler(handlers.TeamCreateHandler)
+	discord.AddHandler(handlers.TeamInteractionHandler)
+	discord.AddHandler(handlers.TeamModalHandler)
 
 	stop := make(chan os.Signal, 1)
 	signal.Notify(stop, os.Interrupt, syscall.SIGTERM)

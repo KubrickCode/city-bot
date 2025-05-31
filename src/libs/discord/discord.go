@@ -16,7 +16,9 @@ func Init() error {
 		return err
 	}
 
-	session.Identify.Intents = discordgo.IntentsGuildMessages | discordgo.IntentsMessageContent
+	session.Identify.Intents = discordgo.IntentsGuildMessages |
+		discordgo.IntentsMessageContent |
+		discordgo.IntentsGuildMembers
 
 	return session.Open()
 }
